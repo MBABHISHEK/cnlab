@@ -53,6 +53,9 @@ public class BellmanFordAlgorithm {
 
           }
 
-        bellmanFord(graph, 0);
+            System.out.println("ENTER THE SOURCE FROM 0 to"+n);
+            int source=sc.nextInt();
+        
+            bellmanFord(graph, source);
     }
 }
