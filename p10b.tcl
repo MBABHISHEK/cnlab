@@ -6,7 +6,7 @@ set topo [new Topography]
 $topo load_flatgrid 1500 1500
 
 #Open the NS trace file
-set tracefile [open p4.tr w]
+set tracefile [open p6.tr w]
 $ns trace-all $tracefile
 
 #Open the NAM trace file
