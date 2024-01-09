@@ -5,9 +5,7 @@
 
 SL.No
 
-PART-A
-
-Program
+# PART-A  Program
 
 1.  Write a program to sort frames using appropriate sorting techniques.
 
@@ -27,7 +25,7 @@ Program
 
 9. Write a program for controlling the congestion by implementing token bucket algorithm
 
-PART-B: Simulation
+# PART-B: Simulation
 
 10. Implement three nodes point-to-point network with duplex links between them. Set the queue size, vary the bandwidth and find the number of packets dropped by iterating for at least 5 sets of values.
 
