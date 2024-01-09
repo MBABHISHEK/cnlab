@@ -9,13 +9,11 @@ PART-A
 
 Program
 
-1. 2. Write a program to sort frames using appropriate sorting techniques.
+1  Write a program to sort frames using appropriate sorting techniques.
 
-3.
+2  Write a program for error detecting code using CRC-CCITT (16-bits).
 
-Write a program for error detecting code using CRC-CCITT (16-bits).
-
-Write a program to find the shortest path between vertices using bellman-ford algorithm.
+3  Write a program to find the shortest path between vertices using bellman-ford algorithm.
 
 4.
 
