@@ -40,6 +40,21 @@ public class Framesort {
         }
         Collections.sort(frames, (f1, f2) -> Integer.compare(f1.seqNo, f2.seqNo));
 
+
+        /*
+        If sorting is asked then u can use this 
+          for (int i = 0; i < frames.size() - 1; i++) {
+        for (int j = 0; j < frames.size() - i - 1; j++) {
+            if (frames.get(j).seqNo > frames.get(j + 1).seqNo) {
+                // swap temp and arr[i]
+                Frame temp = frames.get(j);
+                frames.set(j, frames.get(j + 1));
+                frames.set(j + 1, temp);
+            }
+        }
+       }
+        */
+
         System.out.println("AFTER sorting the frames");
         for (Frame f : frames) {
             System.out.println("THE SEQNO " + f.seqNo + " MESSAGE " + f.data);
