@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class RSA {
 
-    private static final int PRIVATE_KEY = 2753;
-    private static final int PUBLIC_KEY = 17;
-    private static final int N = 3233;  // N = p * q, where p and q are prime numbers
+    private static final int PRIVATE_KEY = 35;
+    private static final int PUBLIC_KEY = 11;
+    private static final int N = 221;  // N = p * q, where p =17and q=13 (P-1)*(Q-1)=192 
 
     public static List<Integer> encrypt(String message) {
         List<Integer> ciphertext = new ArrayList<>();
